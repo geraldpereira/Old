@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mappings PUBLIC "-//DOZER//DTD MAPPINGS//EN"
+   "http://dozer.sourceforge.net/dtd/dozerbeanmapping.dtd">
+<mappings>
+	<configuration>
+		<stop-on-errors>true</stop-on-errors>
+		<date-format>MM/dd/yyyy HH:mm</date-format>
+		<wildcard>true</wildcard>
+	</configuration>
+	<mapping type="bi-directional"  map-empty-string="false">
+		<class-a>fr.byob.blog.client.model.UserGWT</class-a>
+		<class-b>fr.byob.blog.ejb.entity.User</class-b>
+	</mapping>
+	<mapping type="bi-directional" map-empty-string="false">
+		<class-a>fr.byob.blog.client.model.PostGWT</class-a>
+		<class-b>fr.byob.blog.ejb.entity.Post</class-b>
+		<field>
+			<a>categoryCollection</a>
+			<b>categoryCollection</b>
+			<a-hint>fr.byob.blog.client.model.CategoryGWT</a-hint>
+			<b-hint>fr.byob.blog.ejb.entity.Category</b-hint>
+		</field>
+		<field>
+			<a>commentCollection</a>
+			<b>commentCollection</b>
+			<a-hint>fr.byob.blog.client.model.CommentGWT</a-hint>
+			<b-hint>fr.byob.blog.ejb.entity.Comment</b-hint>
+		</field>
+		<field>
+			<a>userid</a>
+			<b>userid</b>
+			<a-hint>fr.byob.blog.client.model.UserGWT</a-hint>
+			<b-hint>fr.byob.blog.ejb.entity.User</b-hint>
+		</field>
+	</mapping>
+	<mapping type="bi-directional"  map-empty-string="false">
+		<class-a>fr.byob.blog.client.model.CategoryGWT</class-a>
+		<class-b>fr.byob.blog.ejb.entity.Category</class-b>
+		<field>
+			<a>postCollection</a>
+			<b>postCollection</b>
+			<a-hint>fr.byob.blog.client.model.PostGWT</a-hint>
+			<b-hint>fr.byob.blog.ejb.entity.Post</b-hint>
+			</field>
+			<field>
+			<a>linkCollection</a>
+			<b>linkCollection</b>
+			<a-hint>fr.byob.blog.client.model.LinkGWT</a-hint>
+			<b-hint>fr.byob.blog.ejb.entity.Link</b-hint>
+		</field>
+	</mapping>
+	<mapping type="bi-directional"  map-empty-string="false">
+		<class-a>fr.byob.blog.client.model.CommentGWT</class-a>
+		<class-b>fr.byob.blog.ejb.entity.Comment</class-b>
+		<field>
+			<a>postid</a>
+			<b>postid</b>
+			<a-hint>fr.byob.blog.client.model.PostGWT</a-hint>
+			<b-hint>fr.byob.blog.ejb.entity.Post</b-hint>
+		</field>
+	</mapping>
+	<mapping type="bi-directional" map-empty-string="false">
+		<class-a>fr.byob.blog.client.model.LinkGWT</class-a>
+		<class-b>fr.byob.blog.ejb.entity.Link</class-b>
+		<field>
+			<a>categoryCollection</a>
+			<b>categoryCollection</b>
+			<a-hint>fr.byob.blog.client.model.CategoryGWT</a-hint>
+			<b-hint>fr.byob.blog.ejb.entity.Category</b-hint>
+		</field>
+		<field>
+			<a>userid</a>
+			<b>userid</b>
+			<a-hint>fr.byob.blog.client.model.UserGWT</a-hint>
+			<b-hint>fr.byob.blog.ejb.entity.User</b-hint>
+		</field>
+	</mapping>
+	<mapping type="bi-directional" map-empty-string="false">
+		<class-a>fr.byob.blog.client.model.ProfilGWT</class-a>
+		<class-b>fr.byob.blog.ejb.entity.Profil</class-b>
+		<field>
+			<a>userid</a>
+			<b>userid</b>
+			<a-hint>fr.byob.blog.client.model.UserGWT</a-hint>
+			<b-hint>fr.byob.blog.ejb.entity.User</b-hint>
+		</field>
+	</mapping>
+</mappings>

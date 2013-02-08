@@ -1,0 +1,852 @@
+.fonce {
+	background-color: #c9c9c9;
+}
+.fonce .ghgrn {
+	color: #ffffff;
+	font-size: 36px;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.fonce .ghgrn a:visited,.fonce .ghgrn a:link,.fonce .ghgrn a:active,.fonce .ghgrn {
+	color: #ffffff;
+	font-size: 36px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.fonce .hiddenFont {
+	color: #ffffff;
+}
+
+.fonce .red {
+	background-color: #ff0000;
+}
+
+.fonce .redBorder {
+	border: solid 1px #ff0000;
+}
+
+.fonce .rnsecs {
+	padding-top: 10px;
+}
+
+.fonce .rnsecs .sec {
+	padding-left: 5px;
+}
+
+.fonce .rnsecs .sec .secln,.fonce .rnsecs .sec .secln:visited,.fonce .rnsecs .sec .secln:link,.fonce .rnsecs .sec .seclnact,.fonce .rnsecs .sec .seclnact:visited,.fonce .rnsecs .sec .seclnact:link
+	{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.fonce .rnsecs .sec .secln:hover,.fonce .rnsecs .sec .seclnact:hover {
+	text-decoration: none;
+}
+
+.fonce .rnsecs .sec .seclnd {
+	font-size: 17px;
+	color: #7777cc;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.fonce .rnsecs .sec .seclnlt,.fonce .rnsecs .sec .seclnlt:visited,.fonce .rnsecs .sec .seclnlt:link
+	{
+	color: #f4f4f4;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.fonce .rnsecs .sec .seclnltd {
+	color: #7777cc;
+}
+
+.fonce .ajoutNews {
+	background-color: #ffffff;
+}
+
+.fonce .ajoutInfo {
+	background-color: #bbbbbb;
+	color: #ffffff;
+}
+
+.fonce .ajoutTitle {
+	background-color: #bbbbbb;
+	padding: 4px 10px 4px 10px;
+}
+
+.fonce .roundTitle {
+	background-color: #bbbbbb;
+}
+
+.fonce .cbg-RP {
+	background-color: #444444;
+}
+
+.fonce .cbg-RPMenuGlob {
+	margin-left: 5px;
+	background-color: #444444;
+}
+
+.fonce .cbg-RPmenu {
+	background-color: #c9c9c9;
+}
+
+.fonce .deco a:visited,.fonce .deco a:link,.fonce .deco a:active,.fonce .deco
+	{
+	color: #676767;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.fonce .pubTitle {
+	color: #555555;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 16px
+}
+
+.fonce .titleDisclosure {
+	color: #555555;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.fonce .titleMenu a:visited,.fonce .titleMenu a:link,.fonce .titleMenu a:active,.fonce .titleMenu
+	{
+	color: #555555;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.fonce .titleMenuB a:visited,.fonce .titleMenuB a:link,.fonce .titleMenuB a:active,.fonce .titleMenuB
+	{
+	padding-left: 2px;
+	color: #c9c9c9;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.fonce .menuSelectText {
+	margin-left: 5px;
+}
+
+.fonce .pub a:visited,.fonce .pub a:link,.fonce .pub a:active,.fonce .pub {
+	color: #676767;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.fonce .msgdate {
+	font: normal 11px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #444444;
+}
+
+.fonce .msgdateComm {
+	font: normal 9px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #cccccc;
+}
+
+.fonce .msgdate a:visited,.fonce .msgdate a:link,.fonce .msgdate a:active,.fonce .msgdate
+	{
+	font: normal 11px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #444444;
+	font-size: 13px;
+	text-decoration: none;
+}
+.fonce .msghelp a:visited,.fonce .msghelp a:link,.fonce .msghelp a:active,.fonce .msghelp
+	{
+	font: normal 11px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #444444;
+	font-size: 13px;
+	text-decoration: none;
+	cursor:help;
+}
+
+.fonce .msgconsole {
+	color: #676767;
+	font-size: 13px;;
+	font-weight: bold;
+	text-align: center;
+}
+
+.fonce .msgcat {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font: normal 14px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #bbbbbb;
+	font-weight: bold;
+}
+
+.fonce .msgtitle {
+	font: normal 16px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #aaaaaa;
+	font-weight: bold;
+	text-decoration: underline;
+	font-variant: small-caps;
+}
+.fonce .msgtitle a:visited,.fonce .msgtitle a:link,.fonce .msgtitle a:active,.fonce .msgtitle
+	{
+	font: normal 16px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #aaaaaa;
+	font-weight: bold;
+	text-decoration: underline;
+	font-variant: small-caps;
+}
+.fonce .msglabel {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.fonce .msglabelComm {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font: normal 10px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+<!--
+-->
+.fonce .msgdateLink {
+	font: normal 11px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #676767;
+}
+
+.fonce .msgcatLink {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #bbbbbb;
+	text-decoration: none;
+	font-weight: bold;
+}
+.fonce .msgcatLink a:visited,.fonce .msgcatLink a:link,.fonce .msgcatLink a:active,.fonce .msgcatLink
+	{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #bbbbbb;
+	text-decoration: none;
+	font-weight: bold;
+}
+.fonce .msgtitleLink a:visited,.fonce .msgtitleLink a:link,.fonce .msgtitleLink a:active,.fonce .msgtitleLink
+	{
+	font: normal 13px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #555555;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+
+.fonce .msglabelLink {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.fonce .Link {
+	color: #555555; /*border-top: 1px solid #bbbbbb;*/
+	font-weight: bold;
+	font: bold 14px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+<!--
+-->
+.fonce .ajoutTitleArt {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #555555;
+}
+
+.fonce .gwt-HorizontalSplitPanel .hsplitter {
+	cursor: move;
+	border: 0px;
+	background: #bbbbbb;
+}
+
+.fonce .cbg-RPSplit {
+	border-top: 1px solid #bbbbbb;
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+}
+
+.fonce .split {
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+}
+
+.fonce .cbg-RPBorderTitleArt {
+	background-color: #555555;
+	margin-top: 15px;
+}
+
+.fonce .userConnected {
+	color: #555555; /*border-top: 1px solid #555555;*/
+	font-weight: bold;
+}
+
+.fonce .ajoutTitleArtCat {
+	background-color: #c9c9c9;
+	color: #555555; /*border-top: 1px solid #555555;*/
+	font-weight: bold;
+	margin: 15px 0 10px 0;
+	font-variant: small-caps;
+}
+
+.fonce .ajoutMenu {
+	position: absolute;
+	margin-top: -1px;
+	z-index: 1;
+	width: 22ex;
+	background-color: #444444;
+	color: black;
+}
+
+.fonce .aTitle {
+	background-color: #444444;
+	font-weight: bold;
+	padding-left: 100px;
+	padding-top: 17px;
+}
+
+.fonce .menuSelect {
+	margin-left: 10px;
+}
+
+.fonce .cbg-RPGrid {
+	border-top: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+	border-left: 1px solid #bbbbbb;
+	background-color: #ffffff;
+}
+
+.fonce .cbg-RPBorderTitle {
+	background-color: #bbbbbb;
+	/*border-left : 1px solid #555555; border-top : 1px solid #555555;*/
+}
+
+.fonce .cbg-RPToolbarTop {
+	background-color: #444444;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	border-top: 1px solid #7c7c7c;
+}
+
+.fonce .cbg-RPToolbarBottom {
+	background-color: #444444;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	border-bottom: 1px solid #7c7c7c;
+}
+
+.fonce .toolbarTop {
+	background-color: #444444;
+	border-top: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+}
+
+.fonce .toolbarBottom {
+	background-color: #444444;
+	border-bottom: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+}
+
+.fonce .cbg-RPFormTop {
+	border-top: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	background-color: #ffffff;
+}
+
+.fonce .cbg-RPFormBottom {
+	border-bottom: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	background-color: #ffffff;
+}
+
+.fonce .cbg-RPForm {
+	border-bottom: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	background-color: #c9c9c9;
+}
+
+.fonce .form-title {
+	color: #555555;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.fonce .form-label {
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.fonce .form {
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+}
+
+.fonce .listWidget {
+	background: #d9d9d9 /*#d9d9d9*/ !important;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #bbbbbb;
+}
+
+.fonce .listWidgetRow {
+	background: #aaaaaa /*#d9d9d9*/ !important
+}
+
+.fonce .selectedList {
+	background: #e5e5e5;
+	border: 1px dotted #bbbbbb;
+}
+
+.opaque {
+	opacity: 0.2;
+	filter: alpha(opacity = 20);
+}
+
+.fonce .titleListWidget {
+	background-color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	/*border-top : 1px solid #555555; border-left : 1px solid #555555;*/
+}
+
+.fonce .row-selected {
+	background: #e5e5e5 /*#d9d9d9*/ !important;
+	border-bottom: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+}
+
+.fonce .last-row {
+	background: #d9d9d9 /*#d9d9d9*/ !important;
+	border-bottom: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+}
+
+.fonce .row-noselected {
+	background: #ffffff !important;
+	border: none;
+}
+
+.fonce .grid-header {
+	background: #ffffff !important;
+	border: 1px solid #555555;
+	color: #bbbbbb;
+	padding: 4px 10px 4px 10px;
+	font: bold 14px verdana, tahoma, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.fonce .grid-cell {
+	padding: 4px 10px 4px 10px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.fonce .grid-border {
+	border-left: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+}
+
+.fonce .gridPadding {
+	padding: 10px 10px 10px 10px;
+}
+
+.fonce .gridBorderTotal {
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.fonce .gwt-Button {
+	font: normal 10px verdana, tahoma, arial, helvetica, sans-serif;
+	margin: 0;
+	text-decoration: none;
+	cursor: pointer;
+	background: url("images/btn-sprite.gif") repeat-x 0px -43px;
+}
+
+.fonce .gwt-Button:active {
+	border: 1px solid #555555;
+}
+
+.fonce .gwt-Button:hover {
+	
+}
+
+.fonce .borderTitle {
+	background-color: #444444;
+}
+
+.fonce .cbg-RPBorderSite {
+	background-color: #444444;
+	margin-top: 5px;
+	margin-left: 4px;
+	margin-right: 5px;
+	/*border-top : 1px solid #555555;border-right : 1px solid #555555; */
+}
+
+.fonce .borderSite { /*border-right : 1px solid #555555;*/
+	
+}
+
+.fonce .borderMenuSelect { /*border-left : 1px solid #555555;*/
+	
+}
+
+.fonce .cbg-RPBorderMenuSelect {
+	background-color: #c9c9c9;
+	/*border-top : 1px solid #555555; border-left : 1px solid #555555;*/
+}
+
+.fonce .header {
+	color: #555555;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.fonce .CalendarWidget {
+	border-left: 1px solid #555555;
+	border-right: 1px solid #555555;
+	border-bottom: 1px solid #555555;
+}
+
+.fonce .RoundedCalendarWidget {
+	border-top: 1px solid #555555;
+	border-right: 1px solid #555555;
+	border-left: 1px solid #555555;
+	background-color: #bbbbbb;
+}
+
+.fonce .CalendarWidget .navbar {
+	width: 100%;
+	background-color: #bbbbbb;
+	vertical-align: middle;
+	border-bottom: 1px solid #555555;
+	color: #ffffff;
+}
+
+.fonce .CalendarWidget .imageButton {
+	font: 10pt sans-serif;
+	cursor: pointer;
+}
+
+.fonce .CalendarWidget .table {
+	font: 10pt sans-serif;
+	text-align: center;
+}
+
+.fonce .CalendarWidget .weekheader {
+	background-color: #bbbbbb;
+	color: #ffffff;
+}
+
+.fonce .CalendarWidget .weekheader .days {
+	width: 3em;
+}
+
+.fonce .CalendarWidget .cell {
+	cursor: pointer;
+}
+
+.fonce .CalendarWidget .cell .gwt-HTML {
+	border: 1px solid #555555;
+}
+
+.fonce .CalendarWidget .cell .gwt-HTML span {
+	width: 100%;
+	height: 100%;
+	line-height: 2em;
+}
+
+.fonce .CalendarWidget .today .gwt-HTML {
+	background-color: #bbbbbb;
+}
+
+.fonce .CalendarWidget .day .gwt-HTML {
+	background-color: #d9d9d9;
+	border: 1px solid #555555;
+}
+
+.fonce .sshdr {
+	padding: 0px 10px 0px 10px;
+}
+
+.fonce .sshdr table.sshdrt {
+	margin-top: -1px;
+	margin-bottom: -3px;
+}
+
+.fonce .sshdrtxt {
+	font-size: 17px;
+}
+
+.fonce .sshdrtxtsm {
+	font-size: 15px;
+}
+
+.fonce .ssabln,.fonce .ssabln:active,.fonce .ssabln:link,.fonce .ssabln:visited
+	{
+	text-decoration: none;
+	color: #000
+}
+
+.fonce .ssabln:hover {
+	text-decoration: underline;
+}
+
+.fonce .ssabhln,.fonce .ssabhln:active,.fonce .ssabhln:link,.fonce .ssabhln:visited
+	{
+	text-decoration: none;
+	color: #00c
+}
+
+.fonce .ssabhln:hover {
+	text-decoration: underline;
+}
+
+.fonce .ssibln,.fonce .ssibln:active,.fonce .ssibln:link,.fonce .ssibln:visited
+	{
+	text-decoration: none;
+	color: #00c;
+}
+
+.fonce .ssibln:hover {
+	text-decoration: underline;
+}
+
+.fonce .BYOBRichTextArea {
+	
+}
+
+.fonce .hasBYOBRichTextToolbar {
+	border: 0px;
+}
+
+.fonce .BYOBRichTextToolbar {
+	background: #bbbbbb;
+	/*border-bottom: 1px solid #BBBBBB;*/
+	padding: 3px;
+	margin: 0px;
+}
+
+.fonce .BYOBRichTextToolbarBorder {
+	background: #bbbbbb;
+}
+
+.fonce .BYOBRichTextToolbar .gwt-PushButton-up {
+	padding: 0px 1px 0px 0px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	border-width: 1px;
+}
+
+.fonce .BYOBRichTextToolbar .gwt-PushButton-up-hovering {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 1px 0px 0px;
+	border-width: 1px;
+}
+
+.fonce .BYOBRichTextToolbar .gwt-PushButton-down {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 0px 0px 1px;
+	border-width: 1px;
+	background: #f3f8f3;
+}
+
+.fonce .BYOBRichTextToolbar .gwt-PushButton-down-hovering {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 0px 0px 1px;
+	border-width: 1px;
+}
+
+.fonce .BYOBRichTextToolbar .gwt-ToggleButton-up {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 1px 0px 0px;
+	border-width: 1px;
+}
+
+.fonce .BYOBRichTextToolbar .gwt-ToggleButton-up-hovering {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 1px 0px 0px;
+	border-width: 1px;
+}
+
+.fonce .BYOBRichTextToolbar .gwt-ToggleButton-down {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 0px 0px 1px;
+	border-width: 1px;
+	background: #bbbbbb;
+}
+
+.fonce .BYOBRichTextToolbar .gwt-ToggleButton-down-hovering {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 0px 0px 1px;
+	border-width: 1px;
+}
+
+.fonce .BYOBRichText { /*border: 1px solid #BBBBBB;*/
+	border-spacing: 0px;
+}
+
+.fonce .HorizontalDisclosurePanel {
+	background: #bbbbbb;
+}
+
+.fonce .HorizontalDisclosurePanelMouseOver {
+	background: #444444;
+	cursor: pointer;
+}
+
+.fonce .overMouseTable {
+	background: #e6e6e6 !important;
+}
+
+/*Chat*/
+.fonce .sent {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+.fonce .received {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #444444;
+}
+
+.fonce .TabBarTitle {
+	border-right: 1px solid #444444;
+	border-left: 1px solid #444444;
+	border-top: 1px solid #444444;
+	padding: 2px 4px 2px 4px;
+	font-family: Verdana, arial, helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 12px;
+	cursor: hand;
+	cursor: pointer;
+	background-color: #676767;
+}
+
+.fonce .TabBarTitle-selected {
+	cursor: default;
+	background-color: #444444 !important;
+}
+
+.fonce .TabBarTitle-received {
+	font-weight: bold;
+	color: #444444;
+	background-color: #f7f670;
+}
+
+.fonce .TabRound {
+	border-top: 1px solid #444444;
+	border-right: 1px solid #444444;
+	border-left: 1px solid #444444;
+}
+
+.fonce .TabContent {
+	border-right: 1px solid #444444;
+	border-left: 1px solid #444444;
+	font-size: 12px;
+}
+
+.fonce .ContactRoundHeader {
+	border-top: 1px solid #444444;
+	border-right: 1px solid #444444;
+	border-left: 1px solid #444444;
+	background-color: #444444;
+}
+
+.fonce .ContactRound {
+	border-bottom: 1px solid #444444;
+	border-right: 1px solid #444444;
+	border-left: 1px solid #444444;
+}
+
+.fonce .headerContact {
+	color: #ffffff;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+	background-color: #444444;
+	border-right: 1px solid #444444;
+	border-left: 1px solid #444444;
+	border-bottom: 1px solid #444444;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.fonce .Contact {
+	border-right: 1px solid #444444;
+	border-left: 1px solid #444444;
+}
+
+.fonce .Contact-Self {
+	background-color: #d9d9d9;
+}
+
+.fonce .Contact-MouseOver {
+	background-color: #d9d9d9;
+}
+
+.fonce .entry-name {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	color: #555555;
+	font-size: 12px;
+	padding-top: 2px;
+}
+
+.fonce .entry-status {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	color: #676767;
+	font-size: 10px;
+	font-style: italic;
+	padding-bottom: 2px;
+}
+
+.fonce .backgroundColorMain{
+	background-color: #444444;
+}
+
+.fonce .fontColorMain {
+	color: #f4f4f4;
+}
+.fonce .titleBrief{
+	color: #f4f4f4;
+	font-size: 10px;
+	font-style: italic;
+}
+.fonce .Brief{
+	color: #f4f4f4;
+	font-size: 11px;
+}
+.fonce .titleTableBrief{
+	font-size: 11px;
+	font-style: italic;
+}
+.fonce .TableBrief{
+	font-size: 12px;
+}
+.fonce .BriefToolTip {
+	background-color: #e6e6e6;
+}

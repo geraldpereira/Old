@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>Blog</display-name>
+	<welcome-file-list>
+		<welcome-file>www/fr.byob.blog.Blog/Blog.html</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>UserService</servlet-name>
+		<servlet-class>fr.byob.blog.server.UserServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserService</servlet-name>
+		<url-pattern>/userService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PostService</servlet-name>
+		<servlet-class>fr.byob.blog.server.PostServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PostService</servlet-name>
+		<url-pattern>/postService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CommentService</servlet-name>
+		<servlet-class>fr.byob.blog.server.CommentServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CommentService</servlet-name>
+		<url-pattern>/commentService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CategoryService</servlet-name>
+		<servlet-class>fr.byob.blog.server.CategoryServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CategoryService</servlet-name>
+		<url-pattern>/categoryService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LinkService</servlet-name>
+		<servlet-class>fr.byob.blog.server.LinkServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LinkService</servlet-name>
+		<url-pattern>/linkService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ChatService</servlet-name>
+		<servlet-class>fr.byob.blog.server.chat.ChatServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChatService</servlet-name>
+		<url-pattern>/chatService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ProfilService</servlet-name>
+		<servlet-class>fr.byob.blog.server.ProfilServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProfilService</servlet-name>
+		<url-pattern>/profilService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>byobService</servlet-name>
+		<servlet-class>fr.byob.blog.server.BYOBServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>byobService</servlet-name>
+		<url-pattern>/byobService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BriefService</servlet-name>
+		<servlet-class>fr.byob.blog.server.BriefServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BriefService</servlet-name>
+		<url-pattern>/briefService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet> 
+	 <display-name>UploadServlet</display-name> 
+         <servlet-name>UploadServlet</servlet-name> 
+		 <servlet-class>fr.byob.blog.server.UploadServlet</servlet-class> 
+   </servlet> 
+   <servlet-mapping> 
+		<servlet-name>UploadServlet</servlet-name> 
+		<url-pattern>/UploadServlet</url-pattern> 
+   </servlet-mapping>
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Secured page</web-resource-name>
+			<description>Protects the secured page</description>
+			<url-pattern>/www/BlogSecured.html</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>ROLE_USER</role-name>
+			<role-name>ROLE_ADMIN</role-name>
+			<role-name>ROLE_GUEST</role-name>
+		</auth-constraint>
+	</security-constraint>
+	<security-role>
+		<description>Utilisateur</description>
+		<role-name>ROLE_USER</role-name>
+	</security-role>
+	<security-role>
+		<description>Administrateur</description>
+		<role-name>ROLE_ADMIN</role-name>
+	</security-role>
+	<security-role>
+		<description>Non authentifié</description>
+		<role-name>ROLE_GUEST</role-name>
+	</security-role>
+	
+	<login-config>
+		<auth-method>FORM</auth-method>
+		<realm-name>BYOB Realm</realm-name>
+		<form-login-config>
+			<form-login-page>/www/BlogLogin.html</form-login-page>
+			<form-error-page>/www/BlogError.html</form-error-page>
+		</form-login-config>
+	</login-config>
+</web-app>

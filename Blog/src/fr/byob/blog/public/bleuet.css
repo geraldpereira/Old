@@ -1,0 +1,839 @@
+.bleuet .rnsecs {
+	padding-top: 10px;
+}
+.bleuet .ghgrn {
+	color: #ffffff;
+	font-size: 36px;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.bleuet .ghgrn a:visited,.bleuet .ghgrn a:link,.bleuet .ghgrn a:active,.bleuet .ghgrn {
+	color: #ffffff;
+	font-size: 36px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.bleuet .rnsecs .sec {
+	padding-left: 5px;
+}
+
+.bleuet .rnsecs .sec .secln,.bleuet .rnsecs .sec .secln:visited,.bleuet .rnsecs .sec .secln:link,.bleuet .rnsecs .sec .seclnact,.bleuet .rnsecs .sec .seclnact:visited,.bleuet .rnsecs .sec .seclnact:link
+	{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.bleuet .rnsecs .sec .secln:hover,.bleuet .rnsecs .sec .seclnact:hover {
+	text-decoration: none;
+}
+
+.bleuet .rnsecs .sec .seclnd {
+	font-size: 17px;
+	color: #7777cc;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.bleuet .rnsecs .sec .seclnlt,.bleuet .rnsecs .sec .seclnlt:visited,.bleuet .rnsecs .sec .seclnlt:link
+	{
+	color: #f4f4f4;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.bleuet .rnsecs .sec .seclnltd {
+	color: #7777cc;
+}
+
+.bleuet .hiddenFont {
+	color: #ffffff;
+}
+
+.bleuet .ajoutNews {
+	background-color: #ffffff;
+}
+
+.bleuet .ajoutInfo {
+	background-color: #999999;
+	color: #ffffff;
+}
+
+.bleuet .ajoutTitle {
+	background-color: #7799bb;
+	padding: 4px 10px 4px 10px;
+}
+
+.bleuet .roundTitle {
+	background-color: #7799bb;
+}
+
+.bleuet .cbg-RP {
+	background-color: #7799bb;
+}
+
+.bleuet .cbg-RPMenuGlob {
+	margin-left: 5px;
+	background-color: #7799bb;
+}
+
+.bleuet .cbg-RPmenu {
+	background-color: #ffffff;
+}
+
+.bleuet .deco a:visited,.bleuet .deco a:link,.bleuet .deco a:active,.bleuet .deco
+	{
+	color: #676767;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.bleuet .pubTitle {
+	color: #324b65;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 16px
+}
+
+.bleuet .header {
+	color: #324b65;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.bleuet .titleMenu a:visited,.bleuet .titleMenu a:link,.bleuet .titleMenu a:active,.bleuet .titleMenu
+	{
+	color: #324b65;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.bleuet .titleMenuB a:visited,.bleuet .titleMenuB a:link,.bleuet .titleMenuB a:active,.bleuet .titleMenuB
+	{
+	padding-left: 2px;
+	color: #ffffff;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.bleuet .menuSelectText {
+	margin-left: 5px;
+}
+
+.bleuet .pub a:visited,.bleuet .pub a:link,.bleuet .pub a:active,.bleuet .pub
+	{
+	color: #676767;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.bleuet .msgdate {
+	font: normal 11px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #676767;
+}
+
+.bleuet .msgdateComm {
+	font: normal 9px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #676767;
+}
+
+.bleuet .msgdate a:visited,.bleuet .msgdate a:link,.bleuet .msgdate a:active,.bleuet .msgdate
+	{
+	font: normal 11px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #676767;
+	font-size: 13px;
+	text-decoration: none;
+}
+.bleuet .msghelp a:visited,.bleuet .msghelp a:link,.bleuet .msghelp a:active,.bleuet .msghelp
+	{
+	font: normal 11px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #676767;
+	font-size: 13px;
+	text-decoration: none;
+	cursor:help;
+}
+.bleuet .msgconsole {
+	color: #676767;
+	font-size: 13px;;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bleuet .msgcat {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font: normal 14px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #7799bb;
+	font-weight: bold;
+}
+
+.bleuet .msgtitle {
+	font: normal 16px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #7799bb;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+.bleuet .msgtitle a:visited,.bleuet .msgtitle a:link,.bleuet .msgtitle a:active,.bleuet .msgtitle
+	{
+	font: normal 16px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #7799bb;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+.bleuet .msglabel {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.bleuet .msglabelComm {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font: normal 10px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.bleuet .msgdateLink {
+	font: normal 11px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #676767;
+}
+
+.bleuet .msgcatLink {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #7799bb;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bleuet .msgcatLink a:visited,.bleuet .msgcatLink a:link,.bleuet .msgcatLink a:active,.bleuet .msgcatLink
+	{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #7799bb;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bleuet .msgtitleLink a:visited,.bleuet .msgtitleLink a:link,.bleuet .msgtitleLink a:active,.bleuet .msgtitleLink
+	{
+	font: normal 13px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #324b65;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+
+.bleuet .msglabelLink {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.bleuet .Link {
+	color: #324b65; /*border-top: 1px solid #bbbbbb;*/
+	font-weight: bold;
+	font: bold 14px verdana, tahoma, arial, helvetica, sans-serif;
+}
+.bleuet .ajoutTitleArt {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #324b65;
+}
+
+.bleuet .gwt-HorizontalSplitPanel .hsplitter {
+	cursor: move;
+	border: 0px;
+	background: #7799bb;
+}
+
+.bleuet .cbg-RPSplit {
+	border-top: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+}
+
+.bleuet .split {
+	border-left: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+}
+
+.bleuet .cbg-RPBorderTitleArt {
+	background-color: #324b65;
+	margin-top: 15px;
+}
+
+.bleuet .userConnected {
+	color: #324b65; /*border-top: 1px solid #324b65;*/
+	font-weight: bold;
+}
+
+.bleuet .ajoutTitleArtCat {
+	background-color: #ffffff;
+	color: #324b65; /*border-top: 1px solid #324b65;*/
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-variant: small-caps;
+}
+
+.bleuet .TableLogin {
+	font:normal 14px verdana,tahoma,arial,helvetica,sans-serif;
+	color: #324b65; /*border-top: 1px solid #324b65;*/
+	font-weight: bold;
+	margin: 5px 0 3px 0;
+}
+.bleuet .TableMail {
+	font:normal 12px verdana,tahoma,arial,helvetica,sans-serif;
+	color: #7799bb; /*border-top: 1px solid #324b65;*/
+	font-weight: bold;
+}
+.bleuet .TableConn {
+	font:normal 12px verdana,tahoma,arial,helvetica,sans-serif;
+	color: #7799bb; /*border-top: 1px solid #324b65;*/
+	font-weight: bold;
+}
+.bleuet .ajoutMenu {
+	position: absolute;
+	margin-top: -1px;
+	z-index: 1;
+	width: 22ex;
+	background-color: #7799bb;
+	color: black;
+}
+
+.bleuet .aTitle {
+	background-color: #7799bb;
+	font-weight: bold;
+	padding-left: 100px;
+	padding-top: 17px;
+}
+
+.bleuet .menuSelect {
+	margin-left: 10px;
+}
+
+.bleuet .cbg-RPGrid {
+	border-top: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	background-color: #ffffff;
+}
+
+.bleuet .cbg-RPBorderTitle {
+	background-color: #7799bb;
+	/*border-left : 1px solid #324b65; border-top : 1px solid #324b65;*/
+}
+
+.bleuet .cbg-RPToolbarTop {
+	background-color: #e0ecff;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	border-top: 1px solid #7799bb;
+}
+
+.bleuet .cbg-RPToolbarBottom {
+	background-color: #e0ecff;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	border-bottom: 1px solid #7799bb;
+}
+
+.bleuet .toolbarTop {
+	background-color: #e0ecff;
+	border-top: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+}
+
+.bleuet .toolbarBottom {
+	background-color: #e0ecff;
+	border-bottom: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+}
+
+.bleuet .cbg-RPFormTop {
+	border-top: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	background-color: #ffffff;
+}
+
+.bleuet .cbg-RPFormBottom {
+	border-bottom: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	background-color: #ffffff;
+}
+
+.bleuet .cbg-RPForm {
+	border-bottom: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	background-color: #ffffff;
+}
+
+.bleuet .form-title {
+	color: #324b65;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.bleuet .form-label {
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.bleuet .form {
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+}
+
+.bleuet .listWidget {
+	background: #d9d9d9 /*#d9d9d9*/   !important;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #7799bb;
+}
+
+.bleuet .listWidgetRow {
+	background: #c3d9ff /*#d9d9d9*/   !important
+}
+
+.bleuet .selectedList {
+	background: #c3d9ff;
+	border: 1px dotted #7799bb;
+}
+
+.bleuet .titleListWidget {
+	background-color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	/*border-top : 1px solid #324b65; border-left : 1px solid #324b65;*/
+}
+
+.bleuet .row-selected {
+	background: #c3d9ff /*#d9d9d9*/   !important;
+	border-bottom: 1px solid #c3d9ff;
+	border-top: 1px solid #c3d9ff;
+}
+
+.bleuet .last-row {
+	background: #d9d9d9 /*#d9d9d9*/   !important;
+	border-bottom: 1px solid #c3d9ff;
+	border-top: 1px solid #c3d9ff;
+}
+
+.bleuet .row-noselected {
+	background: #ffffff; /*!important;*/
+	border: none;
+}
+
+.bleuet .grid-header {
+	background: #ffffff !important;
+	border: 1px solid #324b65;
+	color: #7799bb;
+	padding: 4px 10px 4px 10px;
+	font: bold 14px verdana, tahoma, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.bleuet .grid-cell {
+	padding: 4px 10px 4px 10px;
+	font: normal 12px verdana, tahoma, arial, helvetica, sans-serif;
+}
+
+.bleuet .grid-border {
+	border-left: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+}
+
+.bleuet .gridPadding {
+	padding: 10px 10px 10px 10px;
+}
+
+.bleuet .gridBorderTotal {
+	border-bottom: 1px solid #7799bb;
+}
+
+.bleuet .gwt-Button {
+	font: normal 10px verdana, tahoma, arial, helvetica, sans-serif;
+	margin: 0;
+	text-decoration: none;
+	cursor: pointer;
+	background: url("images/btn-sprite.gif") repeat-x 0px -43px;
+}
+
+.bleuet .gwt-Button:active {
+	border: 1px solid #324b65;
+}
+
+.bleuet .gwt-Button:hover {
+	
+}
+
+.bleuet .borderTitle {
+	background-color: #7799bb;
+}
+
+.bleuet .cbg-RPBorderSite {
+	background-color: #7799bb;
+	margin-top: 5px;
+	margin-left: 4px;
+	margin-right: 5px;
+	/*border-top : 1px solid #324b65;border-right : 1px solid #324b65; */
+}
+
+.bleuet .borderSite { /*border-right : 1px solid #324b65;*/
+	
+}
+
+.bleuet .borderMenuSelect { /*border-left : 1px solid #324b65;*/
+	
+}
+
+.bleuet .cbg-RPBorderMenuSelect {
+	background-color: #ffffff;
+	/*border-top : 1px solid #324b65; border-left : 1px solid #324b65;*/
+}
+
+.bleuet .CalendarWidget {
+	border-left: 1px solid #324b65;
+	border-right: 1px solid #324b65;
+	border-bottom: 1px solid #324b65;
+}
+
+.bleuet .RoundedCalendarWidget {
+	border-top: 1px solid #324b65;
+	border-right: 1px solid #324b65;
+	border-left: 1px solid #324b65;
+	background-color: #7799bb;
+}
+
+.bleuet .CalendarWidget .navbar {
+	width: 100%;
+	background-color: #7799bb;
+	vertical-align: middle;
+	border-bottom: 1px solid #324b65;
+	color: #ffffff;
+}
+
+.bleuet .CalendarWidget .imageButton {
+	font: 10pt sans-serif;
+	cursor: pointer;
+}
+
+.bleuet .CalendarWidget .table {
+	font: 10pt sans-serif;
+	text-align: center;
+}
+
+.bleuet .CalendarWidget .weekheader {
+	background-color: #999999;
+	color: #ffffff;
+}
+
+.bleuet .CalendarWidget .weekheader .days {
+	width: 3em;
+}
+
+.bleuet .CalendarWidget .cell {
+	cursor: pointer;
+}
+
+.bleuet .CalendarWidget .cell .gwt-HTML {
+	border: 1px solid #324b65;
+}
+
+.bleuet .CalendarWidget .cell .gwt-HTML span {
+	width: 100%;
+	height: 100%;
+	line-height: 2em;
+}
+
+.bleuet .CalendarWidget .today .gwt-HTML {
+	background-color: #7799bb;
+}
+
+.bleuet .CalendarWidget .day .gwt-HTML {
+	background-color: #c3d9ff;
+	border: 1px solid #324b65;
+}
+
+.bleuet .sshdr {
+	padding: 0px 10px 0px 10px;
+}
+
+.bleuet .sshdr table.sshdrt {
+	margin-top: -1px;
+	margin-bottom: -3px;
+}
+
+.bleuet .sshdrtxt {
+	font-size: 17px;
+}
+
+.bleuet .sshdrtxtsm {
+	font-size: 15px;
+}
+
+.bleuet .ssabln,.bleuet .ssabln:active,.bleuet .ssabln:link,.bleuet .ssabln:visited
+	{
+	text-decoration: none;
+	color: #000
+}
+
+.bleuet .ssabln:hover {
+	text-decoration: underline;
+}
+
+.bleuet .ssabhln,.bleuet .ssabhln:active,.bleuet .ssabhln:link,.bleuet .ssabhln:visited
+	{
+	text-decoration: none;
+	color: #00c
+}
+
+.bleuet .ssabhln:hover {
+	text-decoration: underline;
+}
+
+.bleuet .ssibln,.bleuet .ssibln:active,.bleuet .ssibln:link,.bleuet .ssibln:visited
+	{
+	text-decoration: none;
+	color: #00c;
+}
+
+.bleuet .ssibln:hover {
+	text-decoration: underline;
+}
+
+.bleuet .BYOBRichTextArea {
+	
+}
+
+.bleuet .hasBYOBRichTextToolbar {
+	border: 0px;
+}
+
+.bleuet .BYOBRichTextToolbar {
+	background: #7799bb;
+	/*border-bottom: 1px solid #BBBBBB;*/
+	padding: 3px;
+	margin: 0px;
+}
+
+.bleuet .BYOBRichTextToolbarBorder {
+	background: #7799bb;
+}
+
+.bleuet .BYOBRichTextToolbar .gwt-PushButton-up {
+	padding: 0px 1px 0px 0px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	border-width: 1px;
+}
+
+.bleuet .BYOBRichTextToolbar .gwt-PushButton-up-hovering {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 1px 0px 0px;
+	border-width: 1px;
+}
+
+.bleuet .BYOBRichTextToolbar .gwt-PushButton-down {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 0px 0px 1px;
+	border-width: 1px;
+	background: #f3f8f3;
+}
+
+.bleuet .BYOBRichTextToolbar .gwt-PushButton-down-hovering {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 0px 0px 1px;
+	border-width: 1px;
+}
+
+.bleuet .BYOBRichTextToolbar .gwt-ToggleButton-up {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 1px 0px 0px;
+	border-width: 1px;
+}
+
+.bleuet .BYOBRichTextToolbar .gwt-ToggleButton-up-hovering {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 1px 0px 0px;
+	border-width: 1px;
+}
+
+.bleuet .BYOBRichTextToolbar .gwt-ToggleButton-down {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 0px 0px 1px;
+	border-width: 1px;
+	background: #7799bb;
+}
+
+.bleuet .BYOBRichTextToolbar .gwt-ToggleButton-down-hovering {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 0px 0px 0px 1px;
+	border-width: 1px;
+}
+
+.bleuet .BYOBRichText { /*border: 1px solid #BBBBBB;*/
+	border-spacing: 0px;
+}
+
+.bleuet .HorizontalDisclosurePanel {
+	background: #7799bb;
+}
+
+.bleuet .HorizontalDisclosurePanelMouseOver {
+	background: #e0ecff;
+	cursor: pointer;
+}
+
+.bleuet .overMouseTable {
+	background: #e0ecff !important;
+}
+
+/*Chat*/
+.bleuet .sent {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	color: #7799bb;
+	font-size: 12px;
+}
+
+.bleuet .received {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	color: #324b65;
+	font-size: 12px;
+}
+
+.bleuet .TabBarTitle {
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	border-top: 1px solid #7799bb;
+	padding: 2px 4px 2px 4px;
+	font-family: Verdana, arial, helvetica, sans-serif;
+	color: #324b65;
+	font-size: 12px;
+	cursor: hand;
+	cursor: pointer;
+	background-color: #c3d9ff;
+}
+
+.bleuet .TabBarTitle-selected {
+	cursor: default;
+	background-color: #7799bb !important;
+}
+
+.bleuet .TabBarTitle-received {
+	font-weight: bold;
+	background-color: #f7f670;
+}
+
+.bleuet .TabRound {
+	border-top: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+}
+
+.bleuet .TabContent {
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+}
+
+.bleuet .ContactRoundHeader {
+	border-top: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	background-color: #7799bb;
+}
+
+.bleuet .ContactRound {
+	border-bottom: 1px solid #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+}
+
+.bleuet .headerContact {
+	color: #ffffff;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+	background-color: #7799bb;
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+	border-bottom: 1px solid #7799bb;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.bleuet .Contact {
+	border-right: 1px solid #7799bb;
+	border-left: 1px solid #7799bb;
+}
+
+.bleuet .Contact-Self {
+	background-color: #d9d9d9;
+}
+
+.bleuet .Contact-MouseOver {
+	background-color: #c3d9ff;
+}
+
+.bleuet .entry-name {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	color: #324b65;
+	font-size: 12px;
+	padding-top: 2px;
+}
+
+.bleuet .entry-status {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	color: #676767;
+	font-size: 10px;
+	font-style: italic;
+	padding-bottom: 2px;
+}
+
+.bleuet .backgroundColorMain {
+	background-color: #7799bb;
+}
+
+.bleuet .fontColorMain {
+	color: #ffffff;
+}
+.bleuet .titleBrief{
+	color: #ffffff;
+	font-size: 10px;
+	font-style: italic;
+}
+.bleuet .Brief{
+	color: #ffffff;
+	font-size: 11px;
+}
+.bleuet .titleTableBrief{
+	font-size: 11px;
+	font-style: italic;
+}
+.bleuet .TableBrief{
+	font-size: 12px;
+}
+.bleuet .BriefToolTip {
+	background-color: #e0ecff;
+}

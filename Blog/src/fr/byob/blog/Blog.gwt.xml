@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><module>
+
+	<!-- Utilisation de gwt et des autres applications (Utilities pour tout ce qui est général et EJB pour les modèles de données)-->
+	
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="fr.byob.BYOB"/>
+	<inherits name="fr.byob.blog.BlogEJB"/>
+	<inherits name="com.google.gwt.http.HTTP"/>
+	<inherits name="com.bramosystems.gwt.player.BSTPlayer"/>
+	
+	<!-- Path des sources UI -->
+	<source path="client"/>
+	
+	<!-- Classe d'entrée de l'application -->
+	<entry-point class="fr.byob.blog.client.BYOBBlog"/>
+
+
+	<!-- Feuille de style -->
+	<stylesheet src="bleuet.css"/>
+	<stylesheet src="blanc.css"/>
+	<stylesheet src="gris.css"/>
+	<stylesheet src="fonce.css"/>
+	<stylesheet src="general.css"/>
+	
+	
+	<!-- Déclaration des locales utilisables -->
+	<extend-property name="locale" values="fr"/>
+
+	<!-- Déclaration des servlets (de test sur le serveur local) -->
+	<!-- Les servlets utilisée sur jboss sont déclarées dans web.xml -->	
+	<servlet class="fr.byob.blog.server.test.UserServiceImpl" path="/userService" />
+	<servlet class="fr.byob.blog.server.test.CategoryServiceImpl" path="/categoryService" />
+	<servlet class="fr.byob.blog.server.test.CommentServiceImpl" path="/commentService" />
+	<servlet class="fr.byob.blog.server.test.PostServiceImpl" path="/postService" />
+	<servlet class="fr.byob.blog.server.test.LinkServiceImpl" path="/linkService" />
+	<servlet class="fr.byob.blog.server.test.ProfilServiceImpl" path="/profilService" />
+	<servlet class="fr.byob.blog.server.chat.ChatServiceImpl" path="/chatService"/>
+	<servlet class="fr.byob.blog.server.test.BYOBServiceImpl" path="/byobService"/>
+	<servlet class="fr.byob.blog.server.test.BriefServiceImpl" path="/briefService"/>
+	<servlet class="fr.byob.blog.server.test.UploadServlet" path="/UploadServlet" />
+</module>

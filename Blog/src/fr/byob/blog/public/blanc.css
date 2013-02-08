@@ -1,0 +1,812 @@
+.blanc body,.blanc td,.blanc input,.blanc textarea,.blanc select {
+	font: normal 12px Courier New;
+}
+.blanc .gwt-RichTextArea {
+	font-family: Courier New;
+	font-size: 12px;
+	font: normal 12px Courier New;
+}
+.blanc .loading{
+	color: #676767;
+	font-weight: bold;
+	font-family: Courier New;
+	font-size: 12px;
+}
+.blanc .LinkSettings {
+	color: #324b65; /*border-top: 1px solid #bbbbbb;*/
+	font-weight: bold;
+	font: bold 12px Courier New;
+}
+.blanc .dateSettings {
+	font: normal 11px Courier New;
+	color: #676767;
+}
+.blanc .hiddenFont {
+	color: #ffffff;
+	}
+.blanc .ghgrn {
+	color: #ffffff;
+	font-size: 36px;
+	font-family: Courier New;
+}
+.blanc .ghgrn a:visited,.blanc .ghgrn a:link,.blanc .ghgrn a:active,.blanc .ghgrn {
+	color: #ffffff;
+	font-size: 36px;
+	font-family: Courier New;
+	text-decoration: none;
+}
+.blanc .red{
+	background-color: #ff0000;
+	}
+.blanc .redBorder{
+	border: solid 1px #ff0000;
+}
+.blanc .rnsecs {
+	
+	padding-top: 10px;
+}
+
+.blanc .rnsecs .sec {
+	padding-left: 5px;
+}
+
+.blanc .rnsecs .sec .secln,.blanc .rnsecs .sec .secln:visited,.blanc .rnsecs .sec .secln:link,.blanc .rnsecs .sec .seclnact,.blanc .rnsecs .sec .seclnact:visited,.blanc .rnsecs .sec .seclnact:link
+	{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.blanc .rnsecs .sec .secln:hover,.blanc .rnsecs .sec .seclnact:hover {
+	text-decoration: none;
+}
+
+.blanc .rnsecs .sec .seclnd {
+	font-size: 17px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.blanc .rnsecs .sec .seclnlt,.blanc .rnsecs .sec .seclnlt:visited,.blanc .rnsecs .sec .seclnlt:link
+	{
+	color: #ffffff;
+	font-family: Courier New;
+}
+
+.blanc .rnsecs .sec .seclnltd {
+	color: #ffffff;
+}
+.blanc .ajoutNews {
+	background-color: #ffffff;
+}
+
+.blanc .ajoutInfo {
+	background-color: #bbbbbb;
+	color: #ffffff;
+}
+
+.blanc .ajoutTitle {
+	background-color: #ffffff;
+	padding: 4px 10px 4px 10px;
+}
+
+.blanc .roundTitle {
+	background-color: #bbbbbb;
+}
+
+.blanc .cbg-RP {
+	background-color: #ffffff;
+}
+.blanc .cbg-RPMenuGlob {
+	margin-left: 5px;
+	background-color: #ffffff;
+}
+
+.blanc .cbg-RPmenu {
+	background-color: #ffffff;
+}
+
+.blanc .deco a:visited,.blanc .deco a:link,.blanc .deco a:active,.blanc .deco {
+	color: #676767;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.blanc .pubTitle {
+	color: #555555;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 16px
+}
+.blanc .titleDisclosure {
+	
+	color: #555555;
+	font-size: 14px;
+	text-decoration: none;
+}
+.blanc .titleMenu a:visited,.blanc .titleMenu a:link,.blanc .titleMenu a:active,.blanc .titleMenu {
+	
+	color: #e9e9e9;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.blanc .titleMenuB a:visited,.blanc .titleMenuB a:link,.blanc .titleMenuB a:active,.blanc .titleMenuB
+	{
+	padding-left:2px;
+	color: #000000;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.blanc .menuSelectText {
+	margin-left: 5px;
+}
+
+.blanc .pub a:visited,.blanc .pub a:link,.blanc .pub a:active,.blanc .pub {
+	color: #676767;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.blanc .msgdate {
+	font: normal 11px Courier New;
+	color: #cccccc;
+}
+.blanc .msgdateComm {
+	font: normal 9px Courier New;
+	color: #cccccc;
+}
+.blanc .msgdate a:visited,.blanc .msgdate a:link,.blanc .msgdate a:active,.blanc .msgdate {
+	font: normal 11px Courier New;
+	color: #cccccc;
+	font-size: 13px;
+	text-decoration: none;
+}
+.blanc .msghelp a:visited,.blanc .msghelp a:link,.blanc .msghelp a:active,.blanc .msghelp
+	{
+	font: normal 11px Courier New;
+	color: #cccccc;
+	font-size: 13px;
+	text-decoration: none;
+	cursor:help;
+}
+.blanc .msgconsole {
+	color: #676767;
+	font-size: 13px;;
+	font-weight: bold;
+	text-align: center;
+}
+
+.blanc .msgcat {
+	margin-top:20px;
+	margin-bottom:15px;
+	font:normal 14px  Courier New;
+	color: #bbbbbb;
+	font-weight: bold;
+}
+
+.blanc .msgtitle {
+	font:normal 16px  Courier New;
+	color: #aaaaaa;
+	font-weight: bold;
+	text-decoration: underline;
+	font-variant: small-caps;
+}
+.blanc .msgtitle a:visited,.blanc .msgtitle a:link,.blanc .msgtitle a:active,.blanc .msgtitle
+	{
+	font:normal 16px  Courier New;
+	color: #aaaaaa;
+	font-weight: bold;
+	text-decoration: underline;
+	font-variant: small-caps;
+}
+.blanc .msglabel {
+	margin-top:10px;
+	margin-bottom:10px;
+	font:normal 12px Courier New;
+}
+.blanc .msglabelComm {
+	margin-top:5px;
+	margin-bottom:5px;
+	font:normal 10px Courier New;
+}
+<!-- -->
+.blanc .msgdateLink {
+	font: normal 11px Courier New;
+	color: #676767;
+}
+.blanc .msgcatLink {
+	margin-top:10px;
+	margin-bottom:5px;
+	font:normal 12px  Courier New;
+	color: #bbbbbb;
+	text-decoration: none;
+	font-weight: bold;
+}
+.blanc .msgcatLink a:visited,.blanc .msgcatLink a:link,.blanc .msgcatLink a:active,.blanc .msgcatLink  {
+	margin-top:10px;
+	margin-bottom:5px;
+	font:normal 12px  Courier New;
+	color: #bbbbbb;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+.blanc .msgtitleLink a:visited,.blanc .msgtitleLink a:link,.blanc .msgtitleLink a:active,.blanc .msgtitleLink  {
+	font:normal 13px  Courier New;
+	color: #555555;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+	
+}
+.blanc .msglabelLink {
+	margin-top:5px;
+	margin-bottom:5px;
+	font:normal 12px Courier New;
+}
+.blanc .Link {
+	color: #555555; /*border-top: 1px solid #bbbbbb;*/
+	font-weight: bold;
+	font:bold 14px Courier New;
+}
+<!-- -->
+.blanc .ajoutTitleArt {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #555555;
+	
+}
+.blanc .gwt-HorizontalSplitPanel .hsplitter {
+  cursor: move;
+  border: 0px; 
+  background: #bbbbbb;
+}
+.blanc .cbg-RPSplit{
+	border-top: 1px solid #bbbbbb;
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+}
+.blanc .split{
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+}
+.blanc .cbg-RPBorderTitleArt {
+	background-color: #555555;
+	margin-top: 15px;
+}
+.blanc .userConnected {
+	color: #555555; /*border-top: 1px solid #555555;*/
+	font-weight: bold;
+}
+.blanc .ajoutTitleArtCat {
+	background-color: #ffffff;
+	color: #555555; /*border-top: 1px solid #555555;*/
+	font-weight: bold;
+	margin: 15px 0 10px 0;
+	font-variant: small-caps;
+}
+
+.blanc .ajoutMenu {
+	position: absolute;
+	margin-top: -1px;
+	z-index: 1;
+	width: 22ex;
+	background-color: #ffffff;
+	color: black;
+}
+
+.blanc .aTitle {
+	background-color: #ffffff;
+	font-weight: bold;
+	padding-left: 100px;
+	padding-top: 17px;
+}
+
+.blanc .menuSelect {
+	margin-left: 10px;
+}
+.blanc .cbg-RPGrid {
+	border-top: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+	border-left: 1px solid #bbbbbb;
+	background-color: #ffffff;
+}
+.blanc .cbg-RPBorderTitle {
+	background-color: #bbbbbb;
+	/*border-left : 1px solid #555555; border-top : 1px solid #555555;*/
+}
+.blanc .cbg-RPToolbarTop {
+	background-color: #c9c9c9;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	border-top: 1px solid #7c7c7c;
+}
+.blanc .cbg-RPToolbarBottom {
+	background-color: #c9c9c9;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	border-bottom: 1px solid #7c7c7c;
+}
+.blanc .toolbarTop {
+	background-color: #c9c9c9;
+	border-top: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+}
+.blanc .toolbarBottom {
+	background-color: #c9c9c9;
+	border-bottom: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+}
+
+.blanc .cbg-RPFormTop {
+	border-top: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	background-color: #ffffff;
+}
+.blanc .cbg-RPFormBottom {
+	border-bottom: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	background-color: #ffffff;
+}
+.blanc .cbg-RPForm {
+	border-bottom: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+	background-color: #ffffff;
+}
+.blanc .form-title {
+	color: #555555;
+	font-weight: bold;
+	font-size: 13px;
+}
+.blanc .form-label {
+	font:normal 12px Courier New;
+}
+.blanc .form {
+	border-right: 1px solid #7c7c7c;
+	border-left: 1px solid #7c7c7c;
+}
+.blanc .listWidget{
+	background:#d9d9d9/*#d9d9d9*/!important;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #bbbbbb;
+}
+.blanc .listWidgetRow{
+	background:#aaaaaa/*#d9d9d9*/!important
+	}
+	.blanc .selectedList{
+	background:#e5e5e5;
+	border:1px dotted #bbbbbb;
+	}
+.opaque{
+	opacity: 0.2; filter: alpha(opacity=20);	
+}
+.blanc .titleListWidget {
+	background-color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	/*border-top : 1px solid #555555; border-left : 1px solid #555555;*/
+}
+.blanc .row-selected { background:#e5e5e5/*#d9d9d9*/!important;
+	border-bottom: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+}
+.blanc .last-row { background:#d9d9d9/*#d9d9d9*/!important;
+	border-bottom: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+}
+.blanc .row-noselected { background:#ffffff!important;
+	border: none;
+}
+.blanc .grid-header{background:#ffffff !important;
+	border: 1px solid #555555;
+	color: #bbbbbb;
+	padding: 4px 10px 4px 10px;
+	font:bold 14px Courier New;
+	font-weight: bold;
+}
+.blanc .grid-cell{
+	padding: 4px 10px 4px 10px;
+	font:normal 12px Courier New;
+}
+.blanc .grid-border{
+	border-left: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+}
+.blanc .gridPadding{
+	padding: 10px 10px 10px 10px;
+	
+}
+.blanc .gridBorderTotal{
+border-bottom: 1px solid #bbbbbb;	
+}
+.blanc .gwt-Button {
+	font: normal 10px Courier New;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+  background: url("images/btn-sprite.gif")   repeat-x 0px -43px;
+}
+.blanc .gwt-Button:active {
+  border: 1px solid #555555;
+}
+.blanc .gwt-Button:hover {
+}
+
+
+.blanc .borderTitle { 
+	background-color: #ffffff;
+}
+
+.blanc .cbg-RPBorderSite {
+	background-color: #ffffff;
+	margin-top: 5px;
+	margin-left:4px;
+	margin-right:5px;
+	/*border-top : 1px solid #555555;border-right : 1px solid #555555; */
+}
+
+.blanc .borderSite { /*border-right : 1px solid #555555;*/
+	
+}
+
+.blanc .borderMenuSelect { /*border-left : 1px solid #555555;*/
+	
+}
+
+.blanc .cbg-RPBorderMenuSelect {
+	background-color: #ffffff;
+	/*border-top : 1px solid #555555; border-left : 1px solid #555555;*/
+}
+
+.blanc .header  {
+	color: #555555;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.blanc .CalendarWidget {
+	border-left : 1px solid #555555;
+	border-right : 1px solid #555555;
+	border-bottom : 1px solid #555555;
+}
+
+.blanc .RoundedCalendarWidget{
+	border-top: 1px solid #555555;
+	border-right: 1px solid #555555;
+	border-left: 1px solid #555555;
+	background-color: #bbbbbb;
+}
+
+.blanc .CalendarWidget .navbar {
+	width: 100%;
+	background-color: #bbbbbb;
+	vertical-align: middle;
+	border-bottom: 1px solid #555555;
+	color: #ffffff;
+}
+
+.blanc .CalendarWidget .imageButton {
+	font: 10pt Courier New;
+	cursor:pointer;
+}
+
+.blanc .CalendarWidget .table {
+	font: 10pt Courier New;
+	text-align: center;
+}
+
+.blanc .CalendarWidget .weekheader {
+	background-color: #bbbbbb;
+	color: #ffffff;
+}
+
+.blanc .CalendarWidget .weekheader .days {
+	width: 3em;
+}
+
+.blanc .CalendarWidget .cell {
+	cursor: pointer;
+}
+
+.blanc .CalendarWidget .cell .gwt-HTML {
+	border: 1px solid #555555;
+}
+
+.blanc .CalendarWidget .cell .gwt-HTML span {
+	width: 100%;
+	height: 100%;
+	line-height: 2em;
+}
+
+.blanc .CalendarWidget .today .gwt-HTML {
+	background-color: #bbbbbb;
+}
+
+.blanc .CalendarWidget .day .gwt-HTML {
+	background-color: #d9d9d9;
+	border: 1px solid #555555;
+}
+
+.blanc .sshdr {
+	padding: 0px 10px 0px 10px;
+}
+
+.blanc .sshdr table.sshdrt {
+	margin-top: -1px;
+	margin-bottom: -3px;
+}
+
+.blanc .sshdrtxt {
+	font-size: 17px;
+}
+
+.blanc .sshdrtxtsm {
+	font-size: 15px;
+}
+
+.blanc .ssabln,.blanc .ssabln:active,.blanc .ssabln:link,.blanc .ssabln:visited {
+	text-decoration: none;
+	color: #000
+}
+
+.blanc .ssabln:hover {
+	text-decoration: underline;
+}
+
+.blanc .ssabhln,.blanc .ssabhln:active,.blanc .ssabhln:link,.blanc .ssabhln:visited {
+	text-decoration: none;
+	color: #00c
+}
+
+.blanc .ssabhln:hover {
+	text-decoration: underline;
+}
+
+.blanc .ssibln,.blanc .ssibln:active,.blanc .ssibln:link,.blanc .ssibln:visited {
+	text-decoration: none;
+	color: #00c;
+}
+
+.blanc .ssibln:hover {
+	text-decoration: underline;
+}
+
+.blanc .BYOBRichTextArea {
+}
+
+.blanc .hasBYOBRichTextToolbar {
+  border: 0px;
+}
+
+.blanc .BYOBRichTextToolbar {
+  background: #bbbbbb;
+  /*border-bottom: 1px solid #BBBBBB;*/
+  padding: 3px;
+  margin: 0px;
+}
+
+.blanc .BYOBRichTextToolbarBorder {
+  background: #bbbbbb;
+}
+
+.blanc .BYOBRichTextToolbar .gwt-PushButton-up {
+  padding: 0px 1px 0px 0px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  border-width: 1px; 
+}
+
+.blanc .BYOBRichTextToolbar .gwt-PushButton-up-hovering {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 0px 1px 0px 0px;
+  border-width: 1px; 
+}
+
+.blanc .BYOBRichTextToolbar .gwt-PushButton-down {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 0px 0px 0px 1px;
+  border-width: 1px; 
+  background: #f3f8f3;
+}
+
+.blanc .BYOBRichTextToolbar .gwt-PushButton-down-hovering {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 0px 0px 0px 1px;
+  border-width: 1px; 
+}
+
+.blanc .BYOBRichTextToolbar .gwt-ToggleButton-up {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 0px 1px 0px 0px;
+  border-width: 1px;
+}
+
+.blanc .BYOBRichTextToolbar .gwt-ToggleButton-up-hovering {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 0px 1px 0px 0px;
+  border-width: 1px;
+}
+
+.blanc .BYOBRichTextToolbar .gwt-ToggleButton-down {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 0px 0px 0px 1px;
+  border-width: 1px;
+  background: #bbbbbb;
+}
+
+.blanc .BYOBRichTextToolbar .gwt-ToggleButton-down-hovering {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  padding: 0px 0px 0px 1px;
+  border-width: 1px;
+}
+
+.blanc .BYOBRichText {
+  /*border: 1px solid #BBBBBB;*/
+  border-spacing: 0px;
+}
+
+.blanc .HorizontalDisclosurePanel{
+	background: #bbbbbb;
+}
+
+.blanc .HorizontalDisclosurePanelMouseOver {
+	background: #c9c9c9;
+	cursor:pointer;
+}
+.blanc .overMouseTable{
+	background: #e6e6e6 !important;
+}
+
+/*Chat*/
+.blanc .sent {
+	font-family: Courier New;
+	font-size: 12px;
+	color: #bbbbbb;
+}
+
+.blanc .received {
+	font-family: Courier New;
+	font-size: 12px;
+	color: #555555;
+}
+
+.blanc .TabBarTitle {
+	border-right: 1px solid #c9c9c9;
+	border-left: 1px solid #c9c9c9;
+	border-top: 1px solid #c9c9c9;
+	padding: 2px 4px 2px 4px;
+	font-family: Courier New;
+	color: #555555;
+	font-size: 12px;
+	cursor: hand;
+	cursor: pointer;
+	background-color: #d9d9d9;
+}
+
+.blanc .TabBarTitle-selected {
+	cursor: default;
+	background-color: #bbbbbb !important;
+}
+
+.blanc .TabBarTitle-received {
+	font-weight: bold;
+	color: #c9c9c9;
+	background-color: #f7f670;
+}
+
+.blanc .TabRound {
+	border-top: 1px solid #c9c9c9;
+	border-right: 1px solid #c9c9c9;
+	border-left: 1px solid #c9c9c9;
+}
+
+.blanc .TabContent {
+	border-right: 1px solid #c9c9c9;
+	border-left: 1px solid #c9c9c9;
+	font-size: 12px;
+}
+
+.blanc .ContactRoundHeader {
+	border-top: 1px solid #c9c9c9;
+	border-right: 1px solid #c9c9c9;
+	border-left: 1px solid #c9c9c9;
+	background-color: #c9c9c9;
+}
+
+.blanc .ContactRound {
+	border-bottom: 1px solid #c9c9c9;
+	border-right: 1px solid #c9c9c9;
+	border-left: 1px solid #c9c9c9;
+}
+
+.blanc .headerContact {
+	color: #ffffff;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+	background-color: #c9c9c9;
+	border-right: 1px solid #c9c9c9;
+	border-left: 1px solid #c9c9c9;
+	border-bottom: 1px solid #c9c9c9;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.blanc .Contact {
+	border-right: 1px solid #c9c9c9;
+	border-left: 1px solid #c9c9c9;
+}
+
+.blanc .Contact-Self {
+	background-color: #d9d9d9;
+}
+
+.blanc .Contact-MouseOver {
+	background-color: #d9d9d9;
+}
+
+.blanc .entry-name {
+	font-family: Courier New;
+	color: #555555;
+	font-size: 12px;
+	padding-top: 2px;
+}
+
+.blanc .entry-status {
+	font-family: Courier New;
+	color: #676767;
+	font-size: 10px;
+	font-style: italic;
+	padding-bottom: 2px;
+}
+
+.blanc .backgroundColorMain{
+	background-color: #bbbbbb;
+}
+
+.blanc .fontColorMain {
+	color: #ffffff;
+}
+.blanc .titleBrief{
+	color: #000000;
+	font-size: 10px;
+	font-style: italic;
+}
+.blanc .Brief{
+	color: #000000;
+	font-size: 11px;
+}
+.blanc .titleTableBrief{
+	font-size: 11px;
+	font-style: italic;
+}
+.blanc .TableBrief{
+	font-size: 12px;
+}
+.blanc .BriefToolTip {
+	background-color: #bbbbbb;
+}
